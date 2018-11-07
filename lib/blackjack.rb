@@ -41,13 +41,12 @@ def hit?(current_total)
   
   else
   invalid_command
-  return "Please enter a valid command"
   prompt_user
 end
 end
 
 def invalid_command
-  # code invalid_command here
+    return "Please enter a valid command"
 end
 
 #####################################################
