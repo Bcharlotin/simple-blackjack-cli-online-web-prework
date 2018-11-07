@@ -62,10 +62,10 @@ def runner
   display_card_total(total)
   
   until hit?(current_total) > 21
-    puts "Your cards add up  to #{total}"
+    puts "Your cards add up to #{total}"
       hit?
   end
-     puts "Your cards add up  to #{total}"
+     puts "Your cards add up to #{total}"
       end_game(card_total)
     
 
