@@ -62,6 +62,7 @@ def runner
   display_card_total(total)
   
   if display_card_total(total) < 21
+    puts"Your cards add up  to #{total}"
       hit?
   else
     return "Your cards add up  to #{total}"
