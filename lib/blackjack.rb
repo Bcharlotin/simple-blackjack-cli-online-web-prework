@@ -31,16 +31,17 @@ end
 return total 
 end
 
-def hit?(play)
+def hit?(current_total)
   prompt_user
   get_user_input
-  if play=="s"
-    
-  elsif play=="h"
-    display_card_total(total)+deal_card
+  if get_user_input=="s"
+    current_total
+  elsif get_user_input=="h"
+    crurent_total+=deal_card
   else
   invalid_command
-  puts ""
+  puts "Please enter a valid command"
+  prompt_user
 end
 end
 
