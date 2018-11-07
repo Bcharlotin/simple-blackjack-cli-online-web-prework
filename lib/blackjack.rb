@@ -37,7 +37,7 @@ def hit?(current_total)
   if get_user_input=="s"
     current_total
   elsif get_user_input=="h"
-    crurent_total+=deal_card
+    crurent_total= current_total + deal_card
   else
   invalid_command
   puts "Please enter a valid command"
