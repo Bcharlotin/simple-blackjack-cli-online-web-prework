@@ -40,7 +40,7 @@ def hit?(current_total)
   deal_card
   else
   invalid_command
-  puts "Please enter a valid command"
+  return "Please enter a valid command"
   prompt_user
 end
 end
