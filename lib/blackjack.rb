@@ -40,7 +40,7 @@ def hit?(play)
     display_card_total(total)+deal_card
   else
   invalid_command
-  return play
+  puts ""
 end
 end
 
