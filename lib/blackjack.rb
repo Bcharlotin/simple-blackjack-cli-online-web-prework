@@ -35,9 +35,10 @@ def hit?(current_total)
   prompt_user
   get_user_input
   if current_total=="s"
-    return "s"
-  elsif current_total=="h"
+ 
+  elsif get_user_input=="h"
   deal_card
+  
   else
   invalid_command
   return "Please enter a valid command"
