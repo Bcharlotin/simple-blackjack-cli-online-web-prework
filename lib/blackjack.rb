@@ -61,7 +61,7 @@ def runner
   total= current_total
   display_card_total(total)
   
-  until display_card_total(total) >=21
+  until display_card_total(total) >21
     puts "Your cards add up  to #{total}"
       hit?
   end
