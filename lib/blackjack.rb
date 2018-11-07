@@ -37,7 +37,7 @@ def hit?(play)
   if play=="s"
     
   elsif play=="h"
-    deal_card
+    display_card_total(total)+deal_card
   else
   invalid_command
   return play
