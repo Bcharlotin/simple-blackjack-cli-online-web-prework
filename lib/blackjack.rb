@@ -72,20 +72,3 @@ def runner
 
 end
     
-def runner
-  welcome
-  initial_round #this gives a return value, but you are not saving it so this does nothing
-  current_total = initial_round #this looks good
-  hit?(current_total) #you need this inside of a while or until loop
-  total= current_total + initial_round
-  display_card_total(total)
-  
-  if display_card_total(total) < 21 #display_card_total does not have a numerical return value, so this will not work
-    puts "Your cards add up  to #{total}"
-      hit?
-  else
-      end_game
-    puts "Your cards add up  to #{total}"
-
-end
-end
