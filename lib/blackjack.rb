@@ -56,7 +56,6 @@ end
 def runner
   welcome
   initial_round
-  get_user_input
   current_total = initial_round
   hit?(current_total)
   total= current_total+initial_round
