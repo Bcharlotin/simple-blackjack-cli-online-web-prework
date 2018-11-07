@@ -35,7 +35,7 @@ def hit?(current_total)
   prompt_user
   answer =get_user_input
   if answer=="s"
- 
+ return current_total
   elsif answer=="h"
     current_total += deal_card
   
