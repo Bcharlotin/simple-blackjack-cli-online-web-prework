@@ -37,7 +37,7 @@ def hit?(current_total)
   if current_total=="s"
     return "s"
   elsif current_total=="h"
-    crurent_total= current_total + deal_card
+    puts crurent_total= current_total + deal_card
   else
   invalid_command
   puts "Please enter a valid command"
