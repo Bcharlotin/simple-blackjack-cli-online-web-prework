@@ -68,7 +68,7 @@ def runner
      puts "Your cards add up to #{total}"
       end_game(total)
      
-    puts "Sorry, you hit #{card_total}. Thanks for playing!"
+    puts "Sorry, you hit #{total}. Thanks for playing!"
 "
 
 end
