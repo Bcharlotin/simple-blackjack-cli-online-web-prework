@@ -60,6 +60,7 @@ def runner
   display_card_total
   until display_card_total > 21
   runner
+end
 end_game
 end
     
